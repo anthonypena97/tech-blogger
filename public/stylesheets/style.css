@@ -172,6 +172,30 @@ main {
   margin-bottom: 5%;
 }
 
+.content-container {
+  border-style: solid;
+  width: 100%;
+}
+
+.content-text-short {
+  margin: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.content-text {
+  margin: 5px;
+}
+
+.title {
+  background-color: #333;
+}
+
+.meta {
+  font-size: 50%;
+}
+
 footer {
   border-top: 1px solid #ccc;
   display: flex;
