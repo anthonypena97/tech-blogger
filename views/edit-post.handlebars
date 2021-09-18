@@ -6,8 +6,8 @@
   <form class="edit-post-form">
     <div>
       <input name="post-title" type="text" value="{{post.title}}" />
-      <span>({{format_url post.post_url}})</span>
     </div>
+    <textarea id="post-content" name="post-content">{{post.post_content}}</textarea>
     <div>
       {{post.vote_count}} {{format_plural "point" post.vote_count}} by you on {{format_date post.created_at}}
       |
