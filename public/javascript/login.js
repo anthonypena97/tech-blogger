@@ -17,7 +17,7 @@ async function loginFormHandler(event) {
         if (response.ok) {
             document.location.replace('/dashboard')
         } else {
-            response.json().then(data => alert(data.error));
+            response.json().then(data => alert(data.message));
         }
     }
 }
@@ -47,7 +47,10 @@ async function signupFormHandler(event) {
             console.log('success');
             document.location.replace('/');
         } else {
-            response.json().then(data => alert(data.error));
+            response.json().then(data => {
+                console.log('data', data);
+                alert(data)
+            });
         }
     }
 }
