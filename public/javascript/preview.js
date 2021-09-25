@@ -1,15 +1,27 @@
-const url = window.location.toString().split('/')[
-    window.location.toString().split('/').length - 1
-];
+textSize = () => {
 
-const contentContainer = document.getElementById('content-text')
+    const url = window.location.toString().split('/')[
+        window.location.toString().split('/').length - 1
+    ];
 
-if (url === '') {
+    const contentContainer = document.querySelectorAll('[id=content-text]');
 
-    contentContainer.classList.add('content-text-short')
 
-} else {
+    if (url === '') {
 
-    contentContainer.classList.add('content-text')
+        for (var i = 0; i < contentContainer.length; ++i) {
+            contentContainer[i].classList.add('content-text-short');
+        }
+
+    } else {
+
+        for (var i = 0; i < contentContainer.length; ++i) {
+            contentContainer[i].classList.add('content-text');
+        }
+
+    }
 
 }
+
+
+window.onload = textSize();
