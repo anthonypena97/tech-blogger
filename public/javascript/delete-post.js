@@ -16,7 +16,7 @@ async function deleteFormHandler(event) {
 
         response.json().then(data => {
             console.log(data);
-            alert(data.error);
+            alert(data);
         });
 
     }
