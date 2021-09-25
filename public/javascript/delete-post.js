@@ -14,7 +14,10 @@ async function deleteFormHandler(event) {
         document.location.replace('/dashboard/');
     } else {
 
-        response.json().then(data => alert(data.error));
+        response.json().then(data => {
+            console.log(data);
+            alert(data.error);
+        });
 
     }
 
