@@ -21,7 +21,6 @@ A user may view various blog posts written by Tech Blogger accounts. A user may 
 * [License](#license)
 * [Contributing](#contributing)
 * [Questions](#questions)
-* [Acknowledgmenets](#Acknowledgments)
 
 ## Installation
 No installation required. Simply visit, https://tech-4-blogger.herokuapp.com/ , create an account, and start interacting!
