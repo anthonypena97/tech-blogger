@@ -25,6 +25,8 @@ A user may view various blog posts written by Tech Blogger accounts. A user may 
 ## Installation
 No installation required. Simply visit, https://tech-4-blogger.herokuapp.com/ , create an account, and start interacting!
 
+*WARNING! SITE LOGS USER OUT AFTER 5 MINUTES OF INACTIVITY. MUST SWITCH PAGES.
+
 ## License
 MIT License
     
