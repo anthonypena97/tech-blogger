@@ -3,6 +3,7 @@
 ![MIT License badge](https://img.shields.io/badge/license-MIT_License-green)
 
 ![tech-blogger-demo](https://user-images.githubusercontent.com/79285555/134800597-b3ea9a29-94fc-472f-b5da-d2b2be1bb7ac.gif)
+
 https://tech-4-blogger.herokuapp.com/
 
 <p> ---------------------------------------- </p>
